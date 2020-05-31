@@ -1,0 +1,26 @@
+{
+  "name": "unklass-api",
+  "version": "1.0.0",
+  "description": "UNKRISWINA CLASS APP API SERVICES",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha" 
+  },
+  "keywords": [
+    "unklass",
+    "api",
+    "sumba"
+  ],
+  "author": "Unkriswina_Informers",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^7.2.0"
+  }
+}
